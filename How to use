@@ -1,0 +1,91 @@
+How to Use main.py
+
+
+With the main.py file, you can easily perform different tasks in your face recognition system by specifying the mode of operation.
+
+
+
+python main.py --mode capture
+
+
+python main.py --mode preprocess
+
+
+python main.py --mode train
+
+
+python main.py --mode recognize
+
+
+
+
+
+
+
+
+
+
+
+
+# How to Use Each Script Individually
+
+
+make sure those line uncommented at the ende of thye each file
+
+
+1. capture_photos.py
+
+This script captures photos of individuals using the webcam and saves them in a specified directory.
+
+    Usage:
+        Run the script and follow the on-screen instructions to capture multiple photos with different poses.
+        The photos will be saved under data/person_name/.
+
+    Example: python capture_photos.py
+
+
+
+2. data_process.py
+
+This script processes raw images by detecting faces, cropping them, and resizing them to the required dimensions.
+
+    Usage:
+        Preprocess the images captured in the data/ directory and save the processed images in processed_data/.
+
+    Example: python data_process.py
+
+
+
+3. train_model.py
+
+This script is used to train a custom CNN or ResNet model on the preprocessed data.
+
+    Usage:
+        Train a model using the preprocessed images stored in processed_data/.
+        The trained model and label map will be saved in the models/ directory.
+
+    Example: python train_model.py
+
+
+
+4. recognize_face.py
+
+This script loads a pre-trained model and performs live face recognition using the webcam.
+
+    Usage:
+        Run the script to start live face recognition.
+        Ensure that the appropriate model and label map files are specified in the script.
+
+    Example: python recognize_face.py
+
+
+
+
+
+
+
+
+
+
+
+
