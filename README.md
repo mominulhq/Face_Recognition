@@ -11,25 +11,28 @@ This repository hosts the development of a sophisticated face recognition system
 
 
 
+```plaintext
 face-recognition-system/
 ├── data/
-│   ├── person1/
-│   └── person2/
+│ ├── person1/
+│ └── person2/
 ├── models/
-│   ├── custom_cnn_model_date_time.h5
-│   ├── custom_cnn_label_map_date_time.npy
-│   ├── custom_resnet50_model_date_time.h5
-│   ├── custom_resnet50_label_map_date_time.npy
-│   ├── model_date_time.h5
-│   └── label_map_date_time.npy
+│ ├── custom_cnn_model_date_time.h5
+│ ├── custom_cnn_label_map_date_time.npy
+│ ├── custom_resnet50_model_date_time.h5
+│ ├── custom_resnet50_label_map_date_time.npy
+│ ├── model_date_time.h5
+│ └── label_map_date_time.npy
 ├── processed_data/
-│   ├── person1/
-│   └── person2/
+│ ├── person1/
+│ └── person2/
 ├── capture_photos.py
 ├── data_process.py
 ├── How_to_use.md
 ├── recognize_face.py
-└── train_model.py
+├── train_model.py
+└── main.py
+```
 
 
 
